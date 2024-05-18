@@ -1,0 +1,18 @@
+{
+  "description": "Minimal repro for dataflow bug.",
+  "name": "Dataflow Bug",
+  "parameters": [
+    {
+      "helpText": "The input file to read from.",
+      "isOptional": false,
+      "label": "Input File",
+      "name": "input_file"
+    },
+    {
+      "helpText": "The output file to write to.",
+      "isOptional": false,
+      "label": "Output File",
+      "name": "output_file"
+    }
+  ]
+}
